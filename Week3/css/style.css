@@ -1,0 +1,40 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	font-size: 15px;
+	color: #939393;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: bold;
+}
+
+#slogan {
+    font-size: 30px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+#second {
+	font-weight: lighter;
+	color: #d05353;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	text-align: left;
+	font-size: 15px;
+}
+
+.important {
+	font-size: 18px;
+}
+
+a {
+	color: #d05353;
+}
