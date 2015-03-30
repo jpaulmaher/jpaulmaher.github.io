@@ -1,0 +1,48 @@
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 46px;
+	font-size: 43px;
+	margin: 0 0 23px 0;
+	}
+h2 {
+	font-family: 'Cantarell', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: -1px;
+	margin: 0 0 23px 0;
+	}
+p {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 17px;
+	text-align: center;
+	line-height: 23px;
+	margin: 0 0 23px 0;
+	}
+
+.center{
+	width: 200px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+ul {
+	font-family: 'Cantarell',sans-serif;
+	list-style-type: square;
+}
+
+a {
+	color: #d05353;
+	text-align: center;
+}
+
+IMG.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
