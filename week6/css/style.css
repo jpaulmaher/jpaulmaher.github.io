@@ -48,14 +48,14 @@ div {
 	text-align: block;
 	display: inline-block;
 }
-
+ß
 #modern {
 	float: left;
 }
 
 #ballet {
 	float: left;
-}
+}ß
 
 #tap {
 	float: left;
@@ -63,16 +63,16 @@ div {
 
 .myButton {
 	background-color:#f5b3f5;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
 	border-radius:28px;
 	border:1px solid #f5b3f5;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:arial;
-	font-size:17px;
-	padding:16px 31px;
+	font-size:15px;
+	padding:12px 25px;
 	text-decoration:none;
 }
 .myButton:hover {
@@ -81,11 +81,13 @@ div {
 .myButton:active {
 	position:relative;
 	top:1px;
-}
-
 
 footer {
-  text-align: center;
-  padding: 1em 0;
-  clear: both;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0px
+	width: 100%;
+	text-align: center;
+	padding: 1em 0;
+	clear: both;
 }
