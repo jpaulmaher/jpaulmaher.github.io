@@ -19,7 +19,7 @@ h2 {
 	font-size: 1.5em;
 	text-align: center;
 	padding: .5em 0;
-	color: #000
+	color: #000;
 	border-bottom: #000;
 
 }
@@ -34,9 +34,12 @@ nav a {
   margin: 1.1em;
   display: inline-block;
 }
+#top {
+	text-align: left;
+}
 
 section {
-	background: #d1cfd5;
+	background: #fff;
 	color: #666;
 	overflow: auto;
 }
@@ -48,17 +51,29 @@ div {
 	text-align: block;
 	display: inline-block;
 }
-ß
+
 #modern {
 	float: left;
 }
 
 #ballet {
 	float: left;
-}ß
+}
 
 #tap {
 	float: left;
+}
+
+section div {
+	text-align: center;
+}
+
+section div p {
+	text-align: left; 
+}
+
+section div img {
+	width: 100%;
 }
 
 .myButton {
@@ -81,11 +96,12 @@ div {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
 
 footer {
 	background-color: #fff;
 	position: fixed;
-	bottom: 0px
+	bottom: 0px;
 	width: 100%;
 	text-align: center;
 	padding: 1em 0;
