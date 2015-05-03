@@ -1,0 +1,137 @@
+body {
+	background-color: #eeeeee;
+	font-family: Helvetica, sans-serif;
+	color: #333333;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+header {
+	margin-bottom: 1.5em;
+}
+
+nav {
+	background-color: #0FA1A5;
+}
+
+nav a {
+	color: #eeeeee;
+	text-decoration: none;
+	display: none;
+	text-align: center;
+	padding: .5em;
+}
+
+#mobile {
+	font-size: 2em;
+	padding: 0;
+	display: block;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	padding: .25em 0;
+}
+
+#work {
+	color: #0FA1A5;
+	font-weight: 500;
+	letter-spacing: -0.05em;
+}
+
+#space {
+	font-weight: 100;
+	font-style: italic;
+	font-family: Georgia;
+	color: #333;
+}
+
+h2 {
+	text-align: center;
+	padding: 0 .5em;
+}
+
+h3 {
+	display: none;
+	font-family: Georgia, serif;
+	font-size: 2em;
+	font-style: italic;
+	text-align: center;
+	padding: .25em 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+footer {
+	background-color: #0FA1A5;
+	color: #eeeeee;
+	text-align: center;
+	padding: 2em;
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: " ";
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
+
+
+@media only screen and (min-width: 600px) {
+	body {
+		font-size: 22px;
+	}	
+	img {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	h1 {
+		font-size: 4em;
+	}
+	nav a {
+		display: block;
+		float: left;
+		padding: .5em 0;
+		width: 25%;
+	}
+	nav a:hover {
+		background-color: #51A1A5;
+	}
+	#mobile {
+		display: none;
+	}
+	h3 {
+		display: block;
+	}
+	img {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	body {
+		font-size: 24px;
+	}
+	img {
+		width: 25%;
+	}
+	nav a, footer {
+		font-size: .8em;
+	}
+}
+
+@media only screen and (min-width: 1400px){
+	#wrapper {
+		width: 1400px;
+		margin: 0 auto;
+	}
+}

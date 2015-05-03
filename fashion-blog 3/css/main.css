@@ -1,0 +1,147 @@
+body {
+	font-family: Lato, sans-serif;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	color: #dd0000;
+}
+
+h2 {
+	font-size: 2em;
+	color: #888;
+}
+
+h3 {
+	font-size: 2em;
+	color: #000;
+}
+
+h4 {
+	font-size: 1.5em;
+	color: #CCC;
+}
+
+h5 {
+	font-size: 1.5em;
+	color: #CCC;
+}
+
+header {
+	margin: 3em 0;
+}
+
+nav a {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-size: 1.33em;
+	width: 16.666%;
+	text-align: center;
+	padding: .5em 0;
+	float: left;
+}
+
+nav a:hover {
+	background-color: #dd0000;
+}
+
+#main {
+	width: 66.666%;
+	float: left;
+}
+
+#sidebar {
+	width: 30%;
+	float: right;
+	color: #444444;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	color: #bbbbbb;
+}
+
+a {
+	color: #dd0000;
+	text-decoration: none;
+}
+
+.article {
+	margin: 3em 0;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 3em;
+}
+
+p {
+	color: #444444;
+}
+
+@media only screen and (min-width: 1280px) {
+	#wrapper {
+		width: 1088px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	body {
+		font-size: 17px;
+	}
+	#wrapper {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 790px){
+	header {
+		margin: 1.5em 0;
+	}
+	nav a {
+		font-size: 1em;
+	}
+	#main {
+		float: none;
+		width: 98%;
+		padding: 0 1%;
+	}
+	#sidebar {
+		float: none;
+		width: 98%;
+		padding: 0 1%;
+	}
+	#sidebar img {
+		display: none;
+	}
+	.article {
+		margin: 1.5em 0;
+		padding-bottom: 1.5em;
+	}
+}
+
+
+@media only screen and (max-width: 600px){
+	nav a {
+		float: none;
+		width: 100%;
+	}
+}
+
+
